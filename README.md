@@ -13,12 +13,19 @@ time of the next event”. In other words, DES is the representation of a certai
 simulating certain events which occur at certain times. Hence, time is not continuous in DES
 and progress according to the events. As a demonstrative example, a process of airplane
 boarding can be simulated as follows:
+
 • TIME: 09:00 Go into the luggage queue.
+
 • TIME: 09:15 Give your luggage and take your boarding pass.
+
 • TIME: 09:20 Go into the security queue.
+
 • TIME: 09:30 Wait for your boarding time and enjoy your free time.
+
 • TIME: 10:00 Go into the boarding queue.
+
 • TIME: 10.30 Have a nice flight!
+
 Note that in DES the only things that count are events and everything else is ignored. In the
 case of the passenger, until 10:31 only 6 things happened. Additionally, the time progressed
 in a discrete fashion (i.e. jumped from one event to the next one).
